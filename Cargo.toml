@@ -1,0 +1,12 @@
+[package]
+name = "tokio-mqtt"
+version = "0.1.0"
+authors = ["Max Gortman <mgortman@microsoft.com>"]
+
+[dependencies]
+log = "0.3.6"
+futures = "0.1"
+enum_primitive = "*"
+error-chain = "0.7"
+tokio-io = "*"
+bytes = "*"
